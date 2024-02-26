@@ -11,7 +11,6 @@ const Home = () => {
     const [search, setSearch] = useState<string>('');
     const [filter, setFilter] = useState<string>('');
     const [status, setStatus] = useState<string>('');
-
     // Fetch the data from the API and store it in the data state
     const fetchData = async (category: string, pageNumber: number) => {
         // Simple check to bypass initial rendering
@@ -39,6 +38,8 @@ const Home = () => {
             setData([]);
         }
     }
+
+    console.log(filter);
     
     // Re render the data based on the search value
     useEffect(() => {
