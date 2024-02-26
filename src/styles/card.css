@@ -1,0 +1,89 @@
+.card-container {
+    background-color: #D9D9D9;
+    width: calc(770px*0.7);
+    height: calc(566px*0.7);
+    border-radius: 50px;
+    padding-left: 49px;
+}
+
+.card-info {
+    display: flex;
+    justify-content:space-between;
+}
+
+.sub-card-info {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.sub-card-info h5, p {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.sub-card-info h5 {
+    font-size: 2.5em;
+    color: #000;
+    margin: 0;
+}
+
+.sub-card-info p {
+    font-size: 0.9em;
+    color: #646464;
+    font-weight: bold;
+}
+.img-container {
+    width: calc(100px*0.7);
+    height: calc(116px*0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 1;
+}
+
+.img-container img {
+    height: 60%;
+}
+
+.data-info {
+    display: flex;
+    justify-content: left;
+    padding-top: 20px;
+}
+
+.data-info-list {
+    display: inline-block;
+    text-align: left;
+}
+
+.data-info-list li {
+    font-size: 12px;
+    color: #000;
+    padding: 5px 0;
+    font-family: 'Roboto-Mono', monospace;
+    margin-bottom: 8px;
+}
+
+.data-info-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ai-settings {
+    font-weight: bold;
+}
+
+.bi-settings {
+    font-family: 'Roboto-Mono', monospace;
+    max-width: 350px;
+    font-weight: 400;
+}
+
+.seperating-line {
+    height: calc(339px*0.7);
+    border: 0.5px solid black;
+    margin: 0 37px;
+}

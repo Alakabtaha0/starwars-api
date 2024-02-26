@@ -1,0 +1,14 @@
+* {
+    font-family: 'Roboto-Mono', monospace;
+}
+
+.App {
+    text-align: center;
+    background-color: #282c34;
+    height: 100vh;
+    width: 100vw;
+}
+
+.set-origin-center {
+    transform-origin: center;
+}

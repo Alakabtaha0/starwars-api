@@ -1,0 +1,32 @@
+main {
+    width: 100vw;
+    background-color: #000;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 2.5em;
+    padding-top: 30px;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.display-box {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 100vh;
+}

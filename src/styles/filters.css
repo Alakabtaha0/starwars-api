@@ -1,0 +1,33 @@
+.filters-bounding-box {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+}
+
+.search-box {
+    width: 60%;
+    height: 30px;
+    margin-right: 1px;
+    padding: 0 10px;
+    border: 1px solid #777777;
+    border-radius: 5px;
+}
+
+.filter-button {
+    height: 32px;
+    width: 10%;
+    padding: 0 10px;
+    margin-right: 5px;
+    border: 1px solid #777777;
+    cursor: pointer;
+}
+
+.filter-dropdown {
+    height: 32px;
+    width: 10%;
+    margin-right: 5px;
+    border: 1px solid #777777;
+    cursor: pointer;
+    text-align: center;
+}
